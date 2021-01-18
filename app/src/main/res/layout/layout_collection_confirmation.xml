@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewmddel"
-            type="com.finwin.doorstep.rightview.home.transactions.cash_deposit.dialog.ConfirmationViewmodel" />
+            type="com.finwin.doorstep.chosenvolks.home.transactions.cash_deposit.dialog.ConfirmationViewmodel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

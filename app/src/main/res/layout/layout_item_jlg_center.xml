@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.finwin.doorstep.rightview.home.jlg.jlg_center_creation.adapter.CenterItemViewModel" />
+            type="com.finwin.doorstep.chosenvolks.home.jlg.jlg_center_creation.adapter.CenterItemViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.finwin.doorstep.rightview">
+    package="com.finwin.doorstep.chosenvolks">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -15,39 +15,39 @@
         android:usesCleartextTraffic="true"
         tools:replace="android:icon">
         <activity
-            android:name="com.finwin.doorstep.rightview.home.jlg.split_transaction.SplitTransactionActivity"
+            android:name="com.finwin.doorstep.chosenvolks.home.jlg.split_transaction.SplitTransactionActivity"
             android:theme="@style/AppTheme_Material"
             android:fitsSystemWindows="true"
             android:screenOrientation="portrait" />
-        <activity android:name="com.finwin.doorstep.rightview.home.jlg.search_account_group.SearchGroupActivity"
+        <activity android:name="com.finwin.doorstep.chosenvolks.home.jlg.search_account_group.SearchGroupActivity"
             android:fitsSystemWindows="true"
             android:screenOrientation="portrait"/>
         <activity
-            android:name="com.finwin.doorstep.rightview.home.enquiry.mini_statement.reciept.MiniStatementRecieptActivity"
+            android:name="com.finwin.doorstep.chosenvolks.home.enquiry.mini_statement.reciept.MiniStatementRecieptActivity"
             android:theme="@style/AppTheme_Material"
             android:fitsSystemWindows="true"
             android:screenOrientation="portrait"/>
         <activity
-            android:name="com.finwin.doorstep.rightview.print_reciept.ReceiptActivity"
+            android:name="com.finwin.doorstep.chosenvolks.print_reciept.ReceiptActivity"
             android:theme="@style/AppTheme_Material"
             android:fitsSystemWindows="true"
             android:screenOrientation="portrait"/>
         <activity
-            android:name="com.finwin.doorstep.rightview.home.transactions.search_account.SearchActivity"
+            android:name="com.finwin.doorstep.chosenvolks.home.transactions.search_account.SearchActivity"
             android:theme="@style/AppTheme_Material"
             android:fitsSystemWindows="true"
             android:screenOrientation="portrait"/>
         <activity
-            android:name="com.finwin.doorstep.rightview.home.home_activity.HomeActivity"
+            android:name="com.finwin.doorstep.chosenvolks.home.home_activity.HomeActivity"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme_Material"
             android:fitsSystemWindows="true"
             android:screenOrientation="portrait"/>
-        <activity android:name="com.finwin.doorstep.rightview.MainActivity"
+        <activity android:name="com.finwin.doorstep.chosenvolks.MainActivity"
             android:fitsSystemWindows="true"
             android:screenOrientation="portrait"/>
         <activity
-            android:name="com.finwin.doorstep.rightview.login.LoginActivity"
+            android:name="com.finwin.doorstep.chosenvolks.login.LoginActivity"
             android:theme="@style/AppTheme_Material"
             android:fitsSystemWindows="true"
             android:screenOrientation="portrait">

@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.finwin.doorstep.rightview.home.bc_report.date_to_date_report.DateToDateReportViewModel" />
+            type="com.finwin.doorstep.chosenvolks.home.bc_report.date_to_date_report.DateToDateReportViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

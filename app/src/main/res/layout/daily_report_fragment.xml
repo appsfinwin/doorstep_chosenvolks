@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.finwin.doorstep.rightview.home.bc_report.daily_report.DailyReportViewModel" />
+            type="com.finwin.doorstep.chosenvolks.home.bc_report.daily_report.DailyReportViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

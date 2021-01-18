@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.finwin.doorstep.rightview.print_reciept.RecieptViewmodel" />
+            type="com.finwin.doorstep.chosenvolks.print_reciept.RecieptViewmodel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

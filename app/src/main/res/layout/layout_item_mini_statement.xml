@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.finwin.doorstep.rightview.home.enquiry.mini_statement.adapter.MiniStatementItemViewmodel" />
+            type="com.finwin.doorstep.chosenvolks.home.enquiry.mini_statement.adapter.MiniStatementItemViewmodel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

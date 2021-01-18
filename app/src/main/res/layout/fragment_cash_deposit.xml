@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.finwin.doorstep.rightview.home.transactions.cash_deposit.CashDepositViewmodel" />
+            type="com.finwin.doorstep.chosenvolks.home.transactions.cash_deposit.CashDepositViewmodel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

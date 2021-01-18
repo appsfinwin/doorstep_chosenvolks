@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.finwin.doorstep.rightview.home.home_activity.AppBarViewmodel" />
+            type="com.finwin.doorstep.chosenvolks.home.home_activity.AppBarViewmodel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

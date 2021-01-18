@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.finwin.doorstep.rightview.home.agent_management.AgentManagementViewModel" />
+            type="com.finwin.doorstep.chosenvolks.home.agent_management.AgentManagementViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

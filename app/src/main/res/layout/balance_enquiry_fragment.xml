@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.finwin.doorstep.rightview.home.enquiry.balance_enquiry.BalanceEnquiryViewModel" />
+            type="com.finwin.doorstep.chosenvolks.home.enquiry.balance_enquiry.BalanceEnquiryViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

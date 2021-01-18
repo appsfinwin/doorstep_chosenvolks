@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.finwin.doorstep.rightview.login.LoginViewmodel" />
+            type="com.finwin.doorstep.chosenvolks.login.LoginViewmodel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -72,6 +72,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Password"
+                    android:singleLine="true"
+                    android:imeOptions="actionDone"
                     android:text="@={viewmodel.of_password}" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -91,6 +93,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Username"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
                     android:maxLines="1"
                     android:text="@={viewmodel.of_username}" />
             </com.google.android.material.textfield.TextInputLayout>

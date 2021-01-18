@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.finwin.doorstep.rightview.home.jlg.split_transaction.remitance_details.RemittanceDetailsViewModel" />
+            type="com.finwin.doorstep.chosenvolks.home.jlg.split_transaction.remitance_details.RemittanceDetailsViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
