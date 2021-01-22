@@ -135,6 +135,15 @@ class HomeActivity : AppCompatActivity() {
                         myFragment
                     ).addToBackStack(null).commit()
                 }
+//                HomeAction.CLICK_CUSTOMER_CREATION -> {
+//                    val myFragment: Fragment =
+//                        CustomerCreationFragment.newInstance()
+//                    supportFragmentManager.popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE)
+//                    supportFragmentManager.beginTransaction().replace(
+//                        R.id.frame_layout,
+//                        myFragment
+//                    ).addToBackStack(null).commit()
+//                }
             }
 
         })

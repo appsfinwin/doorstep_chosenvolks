@@ -22,7 +22,7 @@ class RetrofitClient {
                 .build()
 
             instance = Retrofit.Builder()
-                .baseUrl("http://doorstep.rvgn.digicob.in/")
+                .baseUrl("http://doorstep.chosenvolks.digicob.in/")
                 //.baseUrl("http://doorstep.tunl.digicob.in/")
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create())

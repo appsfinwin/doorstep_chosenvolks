@@ -95,7 +95,7 @@ class RecieptViewmodel : ViewModel() {
         try {
 //                ptr.iFlushBuf();
 //            BILL_CASH = "\n       RIGHT VIEW FINANCE          \n\n";
-            BILL_CASH = "\n             Bank Name               \n\n";
+            BILL_CASH = "\n       CHOSEN VOLKS NIDHI LTD          \n\n";
             BILL_CASH = BILL_CASH + "Date             : " + dateAndTime.get() + "\n";
             BILL_CASH = BILL_CASH + "Tran ID          : " + transactionNumber.get() + "\n";
             BILL_CASH = BILL_CASH + "Account Number   : " + accountNumber.get() + "\n";
@@ -119,7 +119,7 @@ class RecieptViewmodel : ViewModel() {
         try {
 //                ptr.iFlushBuf();
 //            BILL_CASH = "\n       RIGHT VIEW FINANCE          \n\n";
-            BILL_CASH = "\n             Bank Name               \n\n";
+            BILL_CASH = "\n       CHOSEN VOLKS NIDHI LTD       \n\n";
             BILL_CASH = BILL_CASH + "Date             : " + dateAndTime.get() + "\n";
             BILL_CASH = BILL_CASH + "Account Number   : " + accountNumber.get() + "\n";
             BILL_CASH = BILL_CASH + "Name             : " + name.get() + "\n";

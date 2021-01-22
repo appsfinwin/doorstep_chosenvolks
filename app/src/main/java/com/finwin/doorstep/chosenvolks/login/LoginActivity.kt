@@ -44,7 +44,7 @@ class LoginActivity : AppCompatActivity() {
         editor = sharedPreferences.edit()
 
 
-        checkVersion()
+        //checkVersion()
         viewmodel.mAction.observe(this, Observer {
 
 
@@ -140,7 +140,7 @@ class LoginActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        checkVersion()
+        //checkVersion()
     }
 
 }

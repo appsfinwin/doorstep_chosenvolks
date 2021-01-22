@@ -101,6 +101,10 @@
 
         <item name="android:textAlignment">center</item>
     </style>
+    <style name="NoActionBar" parent="@android:style/Theme.Holo.Light">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
 
 
 </resources>

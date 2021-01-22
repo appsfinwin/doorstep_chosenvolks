@@ -78,7 +78,7 @@ class MiniStatementReciepViewmodel : ViewModel() {
 
 
 //                    BILL = "                Bank Name               \n\n";
-                BILL = "                RIGHT VIEW GRAMIN NIDHI LIMITED               \n\n";
+                BILL = "                CHOSEN VOLKS NIDHI LTD               \n\n";
                 BILL = BILL + " Account Number  : " + miniStatementData.ACC_NO + "\n";
                 BILL = BILL + " Account Name    : " + miniStatementData.NAME  + "\n";
                 BILL = BILL + " Mobile Number   : " + miniStatementData.MOBILE  + "\n";

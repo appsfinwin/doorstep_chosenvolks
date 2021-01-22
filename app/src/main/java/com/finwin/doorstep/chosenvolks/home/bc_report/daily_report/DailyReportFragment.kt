@@ -60,7 +60,7 @@ class DailyReportFragment : Fragment() {
 
                 DailyReportAction.API_ERROR->{
                     viewModel.cancelLoading()
-                    SweetAlertDialog(activity, SweetAlertDialog.ERROR_TYPE)
+                    SweetAlertDialog(activity, SweetAlertDialog.WARNING_TYPE)
                         .setTitleText("ERROR!")
                         .setContentText(it.error)
                         .setConfirmClickListener {

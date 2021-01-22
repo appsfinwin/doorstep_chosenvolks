@@ -31,6 +31,11 @@ class HomeFragmentViewmodel : ViewModel() {
         mAction.value= HomeAction(
             HomeAction.CLICK_BC_REPORT
         )
+    } fun clickCustomerCreation(view : View)
+    {
+        mAction.value= HomeAction(
+            HomeAction.CLICK_CUSTOMER_CREATION
+        )
     }
 
     fun clickAgentManegement(view : View)

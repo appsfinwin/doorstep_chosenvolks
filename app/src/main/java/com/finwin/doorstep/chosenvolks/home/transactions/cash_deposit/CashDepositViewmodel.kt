@@ -108,6 +108,8 @@ class CashDepositViewmodel: ViewModel() {
             "application/json; charset=utf-8".toMediaTypeOrNull(),
             JSONObject(jsonParams).toString()
         )
+        var request: String= JSONObject(jsonParams).toString()
+         request= JSONObject(jsonParams).toString()
 
         apiInterface = RetrofitClient().RetrofitClient()?.create(ApiInterface::class.java)!!
         repository.cashDeposit(apiInterface, body)

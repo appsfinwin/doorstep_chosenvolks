@@ -4,6 +4,8 @@
     package="com.finwin.doorstep.chosenvolks">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -14,43 +16,47 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:replace="android:icon">
+        <activity android:name=".home.customer_creation.CustomerCreationActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
         <activity
-            android:name="com.finwin.doorstep.chosenvolks.home.jlg.split_transaction.SplitTransactionActivity"
-            android:theme="@style/AppTheme_Material"
+            android:name=".home.jlg.split_transaction.SplitTransactionActivity"
+            android:fitsSystemWindows="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme_Material" />
+        <activity
+            android:name=".home.jlg.search_account_group.SearchGroupActivity"
             android:fitsSystemWindows="true"
             android:screenOrientation="portrait" />
-        <activity android:name="com.finwin.doorstep.chosenvolks.home.jlg.search_account_group.SearchGroupActivity"
-            android:fitsSystemWindows="true"
-            android:screenOrientation="portrait"/>
         <activity
-            android:name="com.finwin.doorstep.chosenvolks.home.enquiry.mini_statement.reciept.MiniStatementRecieptActivity"
-            android:theme="@style/AppTheme_Material"
+            android:name=".home.enquiry.mini_statement.reciept.MiniStatementRecieptActivity"
             android:fitsSystemWindows="true"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme_Material" />
         <activity
-            android:name="com.finwin.doorstep.chosenvolks.print_reciept.ReceiptActivity"
-            android:theme="@style/AppTheme_Material"
+            android:name=".print_reciept.ReceiptActivity"
             android:fitsSystemWindows="true"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme_Material" />
         <activity
-            android:name="com.finwin.doorstep.chosenvolks.home.transactions.search_account.SearchActivity"
-            android:theme="@style/AppTheme_Material"
+            android:name=".home.transactions.search_account.SearchActivity"
             android:fitsSystemWindows="true"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme_Material" />
         <activity
-            android:name="com.finwin.doorstep.chosenvolks.home.home_activity.HomeActivity"
+            android:name=".home.home_activity.HomeActivity"
+            android:fitsSystemWindows="true"
             android:label="@string/title_activity_home"
-            android:theme="@style/AppTheme_Material"
-            android:fitsSystemWindows="true"
-            android:screenOrientation="portrait"/>
-        <activity android:name="com.finwin.doorstep.chosenvolks.MainActivity"
-            android:fitsSystemWindows="true"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme_Material" />
         <activity
-            android:name="com.finwin.doorstep.chosenvolks.login.LoginActivity"
-            android:theme="@style/AppTheme_Material"
+            android:name=".MainActivity"
             android:fitsSystemWindows="true"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:fitsSystemWindows="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme_Material">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

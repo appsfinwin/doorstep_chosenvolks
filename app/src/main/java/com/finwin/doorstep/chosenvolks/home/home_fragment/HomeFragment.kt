@@ -1,24 +1,24 @@
 package com.finwin.doorstep.chosenvolks.home.home_fragment
 
+
+import android.content.Intent
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-
-import com.finwin.doorstep.chosenvolks.home.home_activity.HomeAction
-import com.finwin.doorstep.chosenvolks.home.home_activity.HomeActivity
-import com.finwin.doorstep.chosenvolks.home.transactions.TransactionsFragment
-
-
 import com.finwin.doorstep.chosenvolks.R
 import com.finwin.doorstep.chosenvolks.databinding.FragmentHomeBinding
 import com.finwin.doorstep.chosenvolks.home.agent_management.AgentManagementFragment
 import com.finwin.doorstep.chosenvolks.home.bc_report.BcReportFragment
+import com.finwin.doorstep.chosenvolks.home.customer_creation.CustomerCreationActivity
 import com.finwin.doorstep.chosenvolks.home.enquiry.enquuiry_fragment.EnquiryFragment
+import com.finwin.doorstep.chosenvolks.home.home_activity.HomeAction
+import com.finwin.doorstep.chosenvolks.home.home_activity.HomeActivity
+import com.finwin.doorstep.chosenvolks.home.transactions.TransactionsFragment
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -66,35 +66,48 @@ class HomeFragment : Fragment() {
 
             when (it.action) {
                 HomeAction.CLICK_TRANSACTION -> {
-                    val myFragment: Fragment = TransactionsFragment()
-                    activity?.getSupportFragmentManager()?.beginTransaction()?.replace(
+                    val myFragment: Fragment = TransactionsFragment.newInstance()
+                    activity?.supportFragmentManager?.beginTransaction()?.replace(
                         R.id.frame_layout,
                         myFragment
                     )?.addToBackStack(null)?.commit()
                 }
                 HomeAction.CLICK_ENQUIRY -> {
                     val myFragment: Fragment =
-                        EnquiryFragment()
-                    activity?.getSupportFragmentManager()?.beginTransaction()?.replace(
+                        EnquiryFragment.newInstance()
+                    activity?.supportFragmentManager?.beginTransaction()?.replace(
                         R.id.frame_layout,
                         myFragment
                     )?.addToBackStack(null)?.commit()
                 }
                 HomeAction.CLICK_BC_REPORT -> {
                     val myFragment: Fragment =
-                        BcReportFragment()
-                    activity?.getSupportFragmentManager()?.beginTransaction()?.replace(
+                        BcReportFragment.newInstance()
+                    activity?.supportFragmentManager?.beginTransaction()?.replace(
                         R.id.frame_layout,
                         myFragment
                     )?.addToBackStack(null)?.commit()
                 }
                 HomeAction.CLICK_AGENT -> {
                     val myFragment: Fragment =
-                        AgentManagementFragment()
-                    activity?.getSupportFragmentManager()?.beginTransaction()?.replace(
+                        AgentManagementFragment.newInstance()
+                    activity?.supportFragmentManager?.beginTransaction()?.replace(
                         R.id.frame_layout,
                         myFragment
                     )?.addToBackStack(null)?.commit()
+                }
+                HomeAction.CLICK_CUSTOMER_CREATION -> {
+//                    val myFragment: Fragment =
+//                        CustomerCreationFragment.newInstance()
+//                    activity?.supportFragmentManager?.beginTransaction()?.replace(
+//                        R.id.frame_layout,
+//                        myFragment
+//                    )?.addToBackStack(null)?.commit()
+
+                    // var intent: Intent= Intent(this,CustomerCreationActivity.c)
+
+                    val intent = Intent(activity, CustomerCreationActivity::class.java)
+                    startActivity(intent)
                 }
             }
 

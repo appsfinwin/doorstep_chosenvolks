@@ -11,6 +11,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.finwin.doorstep.chosenvolks.R
 import com.finwin.doorstep.chosenvolks.databinding.FragmentEnquiryBinding
+import com.finwin.doorstep.chosenvolks.home.bc_report.BcReportFragment
 import com.finwin.doorstep.chosenvolks.home.enquiry.balance_enquiry.BalanceEnquiryFragment
 import com.finwin.doorstep.chosenvolks.home.enquiry.mini_statement.MiniStatementFragment
 import com.finwin.doorstep.chosenvolks.home.home_activity.HomeActivity
@@ -43,14 +44,8 @@ class EnquiryFragment : Fragment() {
 
     companion object {
 
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            EnquiryFragment()
-                .apply {
-                arguments = Bundle().apply {
+        fun newInstance() = EnquiryFragment()
 
-                }
-            }
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
