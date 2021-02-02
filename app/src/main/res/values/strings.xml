@@ -54,6 +54,7 @@
     <string name="total_amount_of_deposit">Total Amount Of Deposit</string>
     <string name="number_of_deposit_collected">Number Of Deposit Collected</string>
     <string name="date_and_time">Date and Time</string>
+    <string name="dob">Date of Birth</string>
     <string name="date">Date</string>
     <string name="branch_name">Branch Name</string>
     <string name="branch">Branch</string>
